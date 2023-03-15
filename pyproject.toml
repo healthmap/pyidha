@@ -13,6 +13,7 @@ python = "^3.9"
 hvac = "^1.0.2"
 boto3 = "^1.26.91"
 sqlalchemy = "^2.0.6"
+psycopg2-binary = "^2.9.5"
 
 
 [tool.poetry.group.test.dependencies]
