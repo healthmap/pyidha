@@ -9,7 +9,7 @@ authors = [
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
 hvac = "^1.0.2"
 boto3 = "^1.26.91"
 
