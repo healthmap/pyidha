@@ -1,5 +1,6 @@
 from datetime import datetime
 
+
 def write_repo_data(list_of_model_objects, session):
     """Given a list of model objects, write them to the database.
 
