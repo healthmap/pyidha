@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pyidha"
+version = "0.1.0"
+description = ""
+authors = [
+    "Spencer Marks <spencer.marks@childrens.harvard.edu>",
+    "Christopher Remmel <christopher.remmel@childrens.harvard.edu>",
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+hvac = "^1.0.2"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "*"
+black = "^23.1.0"
+flake8 = "^6.0.0"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
